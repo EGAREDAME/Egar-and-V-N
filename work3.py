@@ -7,3 +7,4 @@ def get_middle_three_chars(str1):
 
 get_middle_three_chars("JhonDiePeta")
 get_middle_three_chars("JaSonAy")
+#comment
