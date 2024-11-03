@@ -1,11 +1,14 @@
+from typing import Self
+
+
 class Employee:
     raise_amt = 1.04
 
     def_init_(self, first, last, pay): # type: ignore
-        self.first = first
-        self.last = last
-        self.email = frist + '.' + '@email.com'
-        self.pay = pay
+        self.first = first # type: ignore
+        self.last = last # type: ignore
+        self.email = frist + '.' + '@email.com' # type: ignore
+        self.pay = pay # type: ignore
     
 
     def fullname(self):
